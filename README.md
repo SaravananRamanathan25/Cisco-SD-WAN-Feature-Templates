@@ -18,7 +18,7 @@ This POSTMAN environment and collection that can be used to interact with the Ci
 * Clone or Download the JSON files "CiscoSD-WAN-FeatureTemplate.postman_collection.json" and "Cisco-SD-WAN-Environment.postman_environment.json"  
 * Import above files to the POSTMAN  
 * In the POSTMAN, make sure you set the environment as "Cisco-SD-WAN-Environment" in the top right corner  
-* Go to Environment options and edit the vmanage, j_username, j_password and port details as per your own vmanage environment
+* Go to Environment options and edit the vmanage, j_username, j_password and port details as per your own vmanage environment.  Please note that "Always On" Devnet Sandbox instance "https://sandboxsdwan.cisco.com:8443" is not having write permission.  You need to Reserve new vManage instance in Devnet Sanbox which will have write access to execute these APIs.  Alternatively you have use other vManages for which you have write access.
 * First Execute API under "Feature Template\1.Authentication\Authentication".  This will make sure that you have logged into the vManage for that session
 * Execute "Feature Template\2a. To Create AAA Feature Template\To Create AAA Feature Template", which will create a AAA feature template called "TestTemplate-AAA" for the device type "vedge-100-B".  On successful execution, vManage will return Template ID.
 * Execute "Feature Template\2b. To Create BGP Feature Template\To Create BGP Feature Template", which will create a BGP feature template called "TestTemplate-bgp" for the device type "vedge-1000".  On successful execution, vManage will return Template ID.
