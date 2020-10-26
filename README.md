@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/SaravananRamanathan25/Cisco-SD-WAN-Feature-Templates)
+
 # Cisco SD-WAN - FeatureTemplates (REST API)
 The Cisco SD-WAN Solution (a.k.a Viptela) is a cloud-delivered overlay SD-WAN architecture that facilitates digital and cloud transformation for enterprises and communication service providers (CSP). It significantly reduces WAN costs and time to deploy new services.
 
